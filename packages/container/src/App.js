@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 
 const Marketing = lazy(() => import('marketing'));
 
-const Home = () => <Link to='/marketing'>Marketing</Link>
+const Home = () => <Link to='/marketing'>Marketing App</Link>
 
 const App = () => (
   <Suspense fallback={'Loading...'}>
