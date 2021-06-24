@@ -139,7 +139,7 @@ const footers = [
   },
 ];
 
-const Pricing = () => {
+export default function Pricing() {
   const classes = useStyles();
 
   return (
@@ -252,5 +252,3 @@ const Pricing = () => {
     </React.Fragment>
   );
 }
-
-export default Pricing;
